@@ -1,2 +1,8 @@
 import 'bootstrap'
-import './lib/index.js'
+import BootstrapPicker from './lib/index.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+  const basicPicker = document.getElementById('basic-picker')
+  // eslint-disable-next-line no-new
+  new BootstrapPicker(basicPicker)
+})
