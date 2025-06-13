@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "*"
+    "vite": "*",
+    "eslint": "*",
+    "neostandard": "*"
   }
 }
