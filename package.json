@@ -7,11 +7,14 @@
     "build": "vite build",
     "dev": "vite",
     "lint": "eslint",
+    "lint:css": "stylelint **/*.css",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "*",
     "eslint": "*",
-    "neostandard": "*"
+    "neostandard": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
   }
 }
