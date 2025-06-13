@@ -11,7 +11,11 @@
     "preview": "vite preview",
     "test": "vitest run --coverage --coverage.thresholds.100"
   },
+  "peerDependencies": {
+    "bootstrap": "5.*"
+  },
   "devDependencies": {
+    "@popperjs/core": "*",
     "@testing-library/dom": "*",
     "@vitest/browser": "*",
     "@vitest/coverage-istanbul": "*",

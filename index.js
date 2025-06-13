@@ -1,2 +1,6 @@
 import 'bootstrap'
-import './lib/index.js'
+import BootstrapPicker from './lib/index.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.picker').forEach((element) => new BootstrapPicker(element))
+})

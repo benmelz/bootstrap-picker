@@ -11,14 +11,6 @@ export default defineConfig({
       name: 'BootstrapPicker',
       fileName: 'bootstrap-picker',
     },
-    rollupOptions: {
-      external: ['bootstrap'],
-      output: {
-        globals: {
-          bootstrap: 'bootstrap',
-        },
-      },
-    },
   },
   test: {
     browser: {

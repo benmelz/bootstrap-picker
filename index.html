@@ -12,14 +12,11 @@
       <section class="container my-3">
         <h1>Bootstrap Picker</h1>
         <hr />
-        <p class="lead">Demonstrations and tests.</p>
 
         <div class="card mb-3">
-          <div class="card-header">
-            Bootstrap form-control
-          </div>
+          <div class="card-header">Vanilla bootstrap</div>
           <div class="card-body">
-            <select class="form-control" aria-label="Ice cream flavors">
+            <select class="form-select">
               <option value=""></option>
               <option value="chocolate">Chocolate</option>
               <option value="vanilla">Vanilla</option>
@@ -29,15 +26,31 @@
         </div>
 
         <div class="card mb-3">
-          <div class="card-header">
-            Bootstrap custom-select
-          </div>
+          <div class="card-header">Basic picker</div>
           <div class="card-body">
-            <select class="custom-select" aria-label="Ice cream flavors">
+            <select class="picker">
               <option value=""></option>
               <option value="chocolate">Chocolate</option>
               <option value="vanilla">Vanilla</option>
               <option value="strawberry">Strawberry</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-header">Picker with optgroups</div>
+          <div class="card-body">
+            <select class="picker">
+              <option value=""></option>
+              <optgroup label="Simple">
+                <option value="chocolate">Chocolate</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="strawberry">Strawberry</option>
+              </optgroup>
+              <optgroup label="Complex">
+                <option value="mint-chocolate-chip">Mint Chocolate Chip</option>
+                <option value="rocky-road">Rocky Road</option>
+              </optgroup>
             </select>
           </div>
         </div>
