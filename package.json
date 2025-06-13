@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "bootstrap": "^4.6.2",
     "vite": "*",
     "eslint": "*",
     "neostandard": "*",
