@@ -1,6 +1,6 @@
 import neostandard from 'neostandard'
 
 export default [
-  { ignores: ['dist/*'] },
-  ...neostandard({ env: ['browser'] })
+  { ignores: ['coverage/*', 'dist/*'] },
+  ...neostandard({ env: ['browser'] }),
 ]

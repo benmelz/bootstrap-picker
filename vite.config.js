@@ -20,4 +20,17 @@ export default defineConfig({
       },
     },
   },
+  test: {
+    browser: {
+      enabled: true,
+      provider: 'webdriverio',
+      headless: true,
+      instances: [
+        { browser: 'chrome' },
+      ],
+    },
+    coverage: {
+      provider: 'istanbul',
+    },
+  },
 })
