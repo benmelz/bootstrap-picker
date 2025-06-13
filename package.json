@@ -15,7 +15,7 @@
     "@testing-library/dom": "*",
     "@vitest/browser": "*",
     "@vitest/coverage-istanbul": "*",
-    "bootstrap": "^4.6.2",
+    "bootstrap": "^5.3.6",
     "eslint": "*",
     "neostandard": "*",
     "stylelint": "*",
