@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-picker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint",
+    "lint:css": "stylelint **/*.css",
+    "preview": "vite preview",
+    "test": "vitest run --coverage --coverage.thresholds.100"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "*",
+    "@vitest/browser": "*",
+    "@vitest/coverage-istanbul": "*",
+    "bootstrap": "*",
+    "eslint": "*",
+    "neostandard": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*",
+    "vite": "*",
+    "vitest": "*",
+    "webdriverio": "*"
+  }
+}

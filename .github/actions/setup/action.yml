@@ -1,0 +1,16 @@
+name: setup
+description: Set up repository
+inputs:
+  environment:
+    description: Environment to set up repository for
+    required: true
+    default: development
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        cache: npm
+        node-version-file: .node-version
+    - run: npm clean-install ${{ inputs.environment == 'production' && '--omit=dev' || '' }}
+      shell: bash
